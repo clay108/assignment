@@ -2,6 +2,7 @@ import React from 'react';
 
 const FrequencyTable = ({ frequencies }) => {
   console.log(frequencies); // Check the data passed
+  console.log("Hii");
 
   if (!frequencies || frequencies.length === 0) {
     return (
